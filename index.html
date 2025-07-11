@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jersey & Cap Store - Modern Dark Theme</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <div class="logo-nav">
+    <img src="logo/Modern_Spray_Graffiti_Bunny_Design_Studio_Brand_Logo__7_-removebg-preview.png" alt="Logo" class="logo" />
+    <nav>
+      <a href="#products" class="active">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="hero fade-in">
+      <h1>Peak Apparel</h1>
+      <p>WEAR THE PEAK OF FASHION</p>
+    </section>
+
+    <section id="products" class="fade-in">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="jerseys/d44335be-6f70-473c-852f-6f5c0f913e9f.jpg" alt="MLB Jersey 1" />
+          <h3>MLB Jerseys</h3>
+          <p>Street-ready MLB jerseys designed to elevate your look with bold team colors and clean cuts.<p>
+        </div>
+        <div class="product-card">
+          <img src="jerseys/8bd73af1-5b62-427f-93ab-c2161529de8a.jpg" alt="NFL Jersey 1" />
+          <h3>NFL Jerseys</h3>
+          <p>Authentic NFL jerseys made for next-level streetwear and comfort.</p>
+        </div>
+        <div class="product-card">
+          <img src="jerseys/9745aefb-168d-4539-8288-790ca42dad9c.jpg" alt="Cap 1" />
+          <h3> Classic Caps</h3>
+          <p>Caps that add instant swag — adjustable, sleek, and perfect for topping off any outfit.</p>
+        </div>
+<div class="product-card slider-card">
+  <div class="slider">
+    <img src="jerseys/f7016205-aa05-4386-95e7-a821d6b220a7.jpg" class="slide active" alt="Dodgers Jersey 1" onclick="zoomImage(this)"/>
+    <img src="jerseys/a76bc7ee-42a4-4212-ac1a-59999503c4c6.jpg" class="slide" alt="Dodgers Jersey 2" onclick="zoomImage(this)"  />
+    <img src="jerseys/465a7bc8-fcb5-4bf6-b93c-427d83a1ccb7.jpg" class="slide" alt="Dodgers Jersey 3" onclick="zoomImage(this)" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <h3>MLB Jersey - Dodgers, NY, Angels</h3>
+  <p> ₱1,200 </p>
+</div>
+
+<div class="product-card slider-card">
+  <div class="slider">
+    <img src="jerseys/e898fb2d-2456-44fd-820c-e5561a534264.jpg" class="slide active" alt="Packers Jersey 1" onclick="zoomImage(this)"/>
+    <img src="jerseys/1cb72c2b-cb61-4906-8a9e-2226acecff69.jpg" class="slide" alt="Packers Jersey 2" onclick="zoomImage(this)" />
+    <img src="jerseys/0cc435be-67ad-4adc-a585-31adbee4ce68.jpg" class="slide" alt="Packers Jersey 3" onclick="zoomImage(this)" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <h3>NFL Jersey - Cardinals, Texans, Ravens</h3>
+  <p> ₱1,000</p>
+</div>
+
+<div class="product-card slider-card">
+  <div class="slider">
+    <img src="caps/7b7538c9-8788-42fb-bae8-4d8d7017ea80.jpg" class="slide active" alt="Black Cap 1" onclick="zoomImage(this)"/>
+    <img src="caps/08a6789b-d3bb-47ab-ab3b-3e076f968ed7.jpg" class="slide" alt="Black Cap 2" onclick="zoomImage(this)"/>
+    <img src="caps/b725bce8-81f1-4882-ab26-fee042e11fdf.jpg" class="slide" alt="Black Cap 3" onclick="zoomImage(this)"/>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <h3>Closed cap - NY, Athletics, Sox</h3>
+  <p>Sleek black cap perfect for any outfit.</p>
+</div>
+<div class="image-modal" id="imageModal" onclick="closeImage()">
+  <img id="modalImg" src="" alt="Zoomed Image">
+</div>
+
+    </section>
+
+    <section id="about" class="fade-in">
+      <h2>About Our Store</h2>
+      <p>We offer authentic MLB and NFL jerseys and bold caps built for people who move with style. Each piece is High-quality, comfort, and Street-approved. Our apparel is made to match your fit, your hustle, and your vibe — wherever you go.</p>
+    </section>
+
+    <section id="contact" class="fade-in">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://www.facebook.com/people/Peak-Apparel/61573142319481/" target="_blank" class="fb-button">
+  Visit our Facebook Page
+</a>
+ <p>📍 Manila, PH</p>
+    <p>© 2025 Jersey & Cap Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+  
